@@ -19,6 +19,7 @@ html {
     no matter the page size:
   */
   background-image: url("img/18px-baseline.png");
+  padding: 18px;
 }
 
 body {
@@ -37,9 +38,19 @@ body {
 }
 
 /* Headings */
+h1,h2,h3,h4,h5,h6 { font-family: Georgia, "Times New Roman", serif; } /* Make all headings Georgia/serif */
+
+h1 { 
+  font-size: 24px; 
+  line-height: 36px;
+  border-bottom: 3px solid black;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
 
 /* Paragraphs */
 
 /* Lists */
 
 /* Phrase Styles */
+
