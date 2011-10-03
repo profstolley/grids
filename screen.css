@@ -40,16 +40,24 @@ body {
 /* Headings */
 h1,h2,h3,h4,h5,h6 { font-family: Georgia, "Times New Roman", serif; } /* Make all headings Georgia/serif */
 
-h1 { 
-  font-size: 24px; 
+h1 {
+  font-size: 24px;
   line-height: 36px;
   border-bottom: 3px solid black;
   margin-top: 12px;
   margin-bottom: 3px;
 }
-
+h2 {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: bold;
+}
 /* Page Divisions */
 div#header {
+  margin-bottom: 18px;
+}
+
+div#content {
   margin-bottom: 18px;
 }
 
@@ -57,10 +65,21 @@ div#header {
 p.tagline {
   font-size: 10px;
 }
+div#content p {
+  padding-bottom: 18px;
+}
 /* Lists */
+div#content ul {
+
+}
+div#content ul > li {
+  padding-bottom: 18px;
+  margin-left: 18px;
+  list-style-type: disc;
+}
+
 
 /* Phrase Styles */
 
 /* Hide Stuff */
 ul.accessibility { display: none; }
-
