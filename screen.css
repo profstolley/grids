@@ -1,4 +1,7 @@
-/* Mobile Designs (apply to non-mobile also) */
+/* Mobile Styles (apply to non-mobile also) */
+
+html { /*Copy code (line-height, font-size) from grid.css when done experimenting.*/}
+
 
 /* Page Divisions - NO LAYOUT HERE; Think Linear, Mobile Design */
 div#header {}
@@ -28,11 +31,14 @@ div#content ul > li {}
 /* Hide Stuff */
 ul.accessibility { display: none; }
 
+
+
 /* Basic Media Query for Screens wider than 1010 pixels */
 
 @media screen and (min-width: 1010px) {
-  html {}
-  body {}
+
+  div#page { /*Copy code from grid.css when done experimenting.*/ }
+
   /*Page Divisions*/
 
   /*
@@ -52,5 +58,6 @@ ul.accessibility { display: none; }
   div#supporting {}
   ul#navigation {}
   div#footer {}
+
 /*Close curly-brace from media query:*/
 }
