@@ -34,6 +34,18 @@ ul.accessibility { display: none; }
   html {}
   body {}
   /*Page Divisions*/
+
+  /*
+    Helpful hint:
+    While working to position page divisions into regions,
+    use the rgba(); color syntax to keep the grid images
+    visible, e.g.,
+
+    div#header { background-color: rgba(255,0,0,.2) }
+
+    The forth/alpha value ranges from 0 (completely transparent)
+    to 1.0 (completely opaque).
+  */
   div#header {}
   div#content {}
   div#main {}
