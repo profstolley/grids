@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--The use of a class attribute on html will throw an error in the XHTML 1.0 Strict Validator. So be it.-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="example-com" class="t22 g960">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="example-com" class="">
 
 <head>
 
@@ -11,7 +11,7 @@
   -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-  <title>Typographic Grid Example</title>
+  <title>Typographic Module Example</title>
 
   <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
@@ -41,49 +41,56 @@
   <div id="content">
 
     <div id="main">
-      <h2>Typographic Grids: Simple Concept, Tricky Execution</h2>
-      <p>
-        Let’s face it: people inclined toward communication and design don’t usually think of math
-        as their strong suit. But the foundation of any well constructed grid is mathematical.
+      <h2>Some Latin Nonsense</h2>
+      <!--NEVER create silly IDs like this; this is for demo purposes only:-->
+      <p id="one">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus pellentesque nisl
+        quis euismod. Praesent nunc risus, ornare et tempus nec, commodo id felis. Nulla nibh augue,
+        elementum sed scelerisque dictum, congue ut lorem. Praesent nisl nisl, mollis at auctor at,
+        imperdiet at eros.
       </p>
-      <p>
-        The good news is that the only math you need is addition and multiplication. If, for
-        example, your baseline grid is 18 pixels, then everything you do to enhance your design
-        (borders, margin, padding) must add up to 18 pixels or a multiple of 18 (36, 54, and so on).
+      <p id="two">
+        Donec id sem diam. Suspendisse commodo ante ac purus dictum blandit. Vivamus suscipit
+        placerat ligula, vitae fringilla arcu sodales eget. Nulla feugiat orci quis massa feugiat
+        ullamcorper. Aliquam id sapien leo, vel tincidunt urna. Mauris at mauris justo.
       </p>
-      <p>
-        While thinking this mathematically about design may not be fun, it also takes a lot of the
-        guesswork out of design. You don’t have to worry, for example, as to what to set the
-        <code>line-height</code> as on your list items or your headings or paragraphs. That’s
-        already been decided.
+      <p id="three">
+        Nulla sodales ultrices risus in viverra. Integer sed erat ut ante dignissim semper eget id
+        elit. Suspendisse elementum tristique lectus et tempor. Duis volutpat fringilla odio, eget
+        consequat eros tempor vitae. Donec ultricies semper ipsum, vel accumsan libero ullamcorper
+        ut. Mauris dictum suscipit sollicitudin. Aenean sagittis adipiscing lacus, venenatis
+        molestie tellus faucibus ac. Morbi sit amet lectus eget turpis facilisis lobortis dapibus
+        eleifend nisi.
       </p>
-      <p>
-        And when you do make the decision about your baseline grid, make sure that it’s an even
-        number. 16, not 15. 18, not 17. The simple reason for this is that browsers will put your
-        text right in the middle of the value you specify; an even number ensures that there is the
-        same amount of space above and below each line of text. See also the “Mind Your Math”
-        sidebar.
+      <p id="four">
+        Etiam tincidunt tellus eu massa euismod fermentum. In eget magna sit amet nunc sodales
+        euismod. Pellentesque felis tortor, aliquam a ullamcorper a, consequat sed magna.
+      </p>
+      <p id="five">
+       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+       Aenean euismod risus in odio sagittis eleifend. Aliquam et nulla nulla, eget gravida sem.
+       Praesent id mi leo, vitae porta nunc. Praesent congue neque sed nulla molestie eget viverra
+       enim scelerisque. Phasellus tincidunt hendrerit dapibus. Vivamus aliquam neque eu arcu
+       feugiat fermentum. Quisque nisi lorem, dapibus sit amet luctus in, rhoncus in lorem. Donec
+       nec magna in leo placerat pretium sit amet gravida neque. Praesent mattis, arcu et gravida
+       pellentesque, eros augue lobortis dolor, id ornare augue tortor sed lectus. Aenean hendrerit
+       massa eget justo vestibulum varius.
       </p>
     </div>
 
     <div id="supporting">
-      <h2>Mind Your Math</h2>
-      <ul>
-        <li>
-          <strong>Don’t get mad, get even.</strong> When working with grids, look for numbers that
-          divide evenly into both 2 and 3 (e.g. 12, 18); numbers that divide into 2 and 3 that also
-          divide into 4 (e.g., 24, 32) and/or 5 (e.g., 30, 40) are even better (but harder to find
-          at small intervals). Numbers that divide into 2, 3, and 6 are somewhat easier to find,
-          being simply multiples of 6 (e.g., 6, 12, 18, 24).
-        </li>
-        <li>
-          <strong>A pixel might as well be a mile.</strong> They sound small, but look big. When
-          creating graphics to help gauge your grid alignment, go with colored bands, not grid
-          lines--as the lines themselves have dimension. This page features a <a
-          href="img/18px-baseline.png">graphic</a> that's 36 pixels tall, split into two 18px-tall
-          bands. Use the same technique for images that guide vertical units and columns.
-        </li>
-      </ul>
+      <h2>Even More Latin Nonsense</h2>
+      <p id="six">
+        Etiam tincidunt tellus eu massa euismod fermentum. In eget magna sit amet nunc sodales
+        euismod. Pellentesque felis tortor, aliquam a ullamcorper a, consequat sed magna.
+      </p>
+      <p id="seven">
+        Phasellus tincidunt hendrerit dapibus. Vivamus aliquam neque eu arcu feugiat fermentum.
+        Quisque nisi lorem, dapibus sit amet luctus in, rhoncus in lorem. Donec nec magna in leo
+        placerat pretium sit amet gravida neque. Praesent mattis, arcu et gravida pellentesque, eros
+        augue lobortis dolor, id ornare augue tortor sed lectus. Aenean hendrerit massa eget justo
+        vestibulum varius.
+      </p>
     </div>
 
   </div>
