@@ -1,72 +1,31 @@
-/* Example-specific Styles */
-a { text-decoration: none; /*Lose underlining on links to make grid easier to see*/ }
-
-/* Typographic Grid Styles */
-
-html {
-  /*
-    Assign the background-image to html
-    so that it tiles to fill the entire viewport,
-    no matter the page size:
-  */
-  background-image: url("img/18px-baseline.png");
-  padding: 18px;
+/* Page Divisions */
+div#header {
 }
 
-body {
-  font-family: Helvetica, Arial, sans-serif; /* Use Helvetica, Arial, or a sans-serif font*/
-  font-size: 14px; /* Set the base font size to 14px */
-
-  /*
-    This is key; this sets the baseline grid at 18px for the entire page.
-    Everything that happens vertically (e.g., margin and padding -top and -bottom,
-    larger line-heights on headings or other text) must be in or add up to
-    exact multiples of 18 (px):
-  */
-
-  line-height: 18px;
-
+div#content {
 }
+
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 { font-family: Georgia, "Times New Roman", serif; } /* Make all headings Georgia/serif */
 
 h1 {
-  font-size: 24px;
-  line-height: 36px;
-  border-bottom: 3px solid black;
-  margin-top: 12px;
-  margin-bottom: 3px;
+
 }
 h2 {
-  font-size: 18px;
-  line-height: 36px;
-  font-weight: bold;
-}
-/* Page Divisions */
-div#header {
-  margin-bottom: 18px;
-}
 
-div#content {
-  margin-bottom: 18px;
 }
 
 /* Paragraphs */
 p.tagline {
-  font-size: 10px;
 }
 div#content p {
-  padding-bottom: 18px;
 }
+
 /* Lists */
 div#content ul {
-
 }
 div#content ul > li {
-  padding-bottom: 18px;
-  margin-left: 18px;
-  list-style-type: disc;
 }
 
 
