@@ -1,85 +1,44 @@
-/* Reset Styles */
-/*
-Copyright (c) 2011, Yahoo! Inc. All rights reserved.
-Code licensed under the BSD License:
-http://developer.yahoo.com/yui/license.html
-version: 2.9.0
-*/
-html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+/* Mobile Designs (apply to non-mobile also) */
 
-/* Example-specific Styles */
-a { text-decoration: none; /*Lose underlining on links to make grid easier to see*/ }
-
-/* Typographic Grid Styles */
-
-html {
-  /*
-    Assign the background-image to html
-    so that it tiles to fill the entire viewport,
-    no matter the page size:
-  */
-  background-image: url("img/18px-baseline.png");
-  padding: 18px;
-}
-
-body {
-  font-family: Helvetica, Arial, sans-serif; /* Use Helvetica, Arial, or a sans-serif font*/
-  font-size: 14px; /* Set the base font size to 14px */
-
-  /*
-    This is key; this sets the baseline grid at 18px for the entire page.
-    Everything that happens vertically (e.g., margin and padding -top and -bottom,
-    larger line-heights on headings or other text) must be in or add up to
-    exact multiples of 18 (px):
-  */
-
-  line-height: 18px;
-
-}
+/* Page Divisions - NO LAYOUT HERE; Think Linear, Mobile Design */
+div#header {}
+div#content {}
+div#main {}
+div#supporting {}
+ul#navigation {}
+div#footer {}
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 { font-family: Georgia, "Times New Roman", serif; } /* Make all headings Georgia/serif */
 
-h1 {
-  font-size: 24px;
-  line-height: 36px;
-  border-bottom: 3px solid black;
-  margin-top: 12px;
-  margin-bottom: 3px;
-}
-h2 {
-  font-size: 18px;
-  line-height: 36px;
-  font-weight: bold;
-}
-/* Page Divisions */
-div#header {
-  margin-bottom: 18px;
-}
-
-div#content {
-  margin-bottom: 18px;
-}
+h1 {}
+h2 {}
 
 /* Paragraphs */
-p.tagline {
-  font-size: 10px;
-}
-div#content p {
-  padding-bottom: 18px;
-}
-/* Lists */
-div#content ul {
+p.tagline {}
+div#content p {}
 
-}
-div#content ul > li {
-  padding-bottom: 18px;
-  margin-left: 18px;
-  list-style-type: disc;
-}
+/* Lists */
+div#content ul {}
+div#content ul > li {}
 
 
 /* Phrase Styles */
 
 /* Hide Stuff */
 ul.accessibility { display: none; }
+
+/* Basic Media Query for Screens wider than 1010 pixels */
+
+@media screen and (min-width: 1010px) {
+  html {}
+  body {}
+  /*Page Divisions*/
+  div#header {}
+  div#content {}
+  div#main {}
+  div#supporting {}
+  ul#navigation {}
+  div#footer {}
+/*Close curly-brace from media query:*/
+}
