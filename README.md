@@ -5,7 +5,7 @@ This is a collection of files I’m using to teach grid-based design principles 
   * Typo grids use colors RGB 148,209,225 and RGB 132,187,201.
 
 
-  ### 978 Widths and Offsets
+### 978 Widths and Offsets
 
       Units       Width       Offset      Abs Offset (+15)
        1          54          84          99
