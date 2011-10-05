@@ -59,5 +59,11 @@ ul.accessibility { display: none; }
   ul#navigation {}
   div#footer {}
 
+  p#one {
+    background-color: rgba(255,0,0,.2);
+    width: 138px;
+  }
+
 /*Close curly-brace from media query:*/
 }
+
