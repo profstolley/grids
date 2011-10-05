@@ -37,7 +37,10 @@ ul.accessibility { display: none; }
 
 @media screen and (min-width: 1010px) {
 
-  div#page { /*Copy code from grid.css when done experimenting.*/ }
+  div#page { /*Copy code from grid.css when done experimenting.*/ 
+    margin: 0 auto;
+    position: relative;
+  }
 
   /*Page Divisions*/
 
@@ -54,7 +57,7 @@ ul.accessibility { display: none; }
   */
   div#header {}
   div#content {}
-  div#main {}
+  div#main { position: relative; }
   div#supporting {}
   ul#navigation {}
   div#footer {}
@@ -62,16 +65,18 @@ ul.accessibility { display: none; }
   p#one {
     background-color: rgba(255,0,0,.2);
     width: 138px;
-    float: left;
   }
   p#two {
     background-color: rgba(255,255,0,.2);
     width: 222px;
-    margin-left: 168px;
+    position: absolute;
+    left: 168px;
+    top: 18px;
   }
 
 
 /*Close curly-brace from media query:*/
 }
+
 
 
