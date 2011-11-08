@@ -42,18 +42,51 @@
 }
 
 /* Column Grids */
-/* See http://960.gs/ */
+
+/*Baseline/Mobile Grid*/
+
+.g978 #page {
+  width: 300px; /*Total width works out to 312px*/
+  padding: 0px 6px 0px 6px;
+  background-image: url('img/300px-6-27-6-8c.png');
+}
+
+@media screen and (min-width: 760px) {
+  .g978 #page {
+    width: 748px; /*Total width works out to 768px*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('img/748px-10-44-10-12c.png');
+  }
+}
+
 @media screen and (min-width: 1010px) {
+  /* See http://978.gs/ */
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-12c.png');
+  }
+    /* See http://960.gs/ - Might remove 960 in the future.*/
   .g960 #page {
     width: 940px; /*Total width works out to 960*/
     padding: 0px 10px 0px 10px;
     background-image: url('img/960px-10-60-10-unit.png');
   }
-  /* See http://978.gs/ */
+}
+
+@media screen and (min-width: 1250px) {
   .g978 #page {
-    width: 978px; /*Total with works out to 1008*/
+    width: 1218px; /*Total width works out to 1248px*/
     padding: 0px 15px 0px 15px;
-    background-image: url('img/978px-15-54-15-unit.png');
+    background-image: url('img/1218px-15-48-15-16c.png');
+  }
+}
+
+@media screen and (min-width: 1410px) {
+  .g978 #page {
+    width: 1378px; /*Total width works out to 1408px*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/1378px-15-58-15-16c.png');
   }
 }
 
